@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		9C6BF5FB1BA55E1C0084BFFD /* ABPadLockScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6BF5FA1BA55E1C0084BFFD /* ABPadLockScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C6BF60F1BA55E990084BFFD /* ABPadButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6BF6021BA55E990084BFFD /* ABPadButton.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C6BF60F1BA55E990084BFFD /* ABPadButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6BF6021BA55E990084BFFD /* ABPadButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C6BF6101BA55E990084BFFD /* ABPadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6BF6031BA55E990084BFFD /* ABPadButton.m */; };
-		9C6BF6121BA55E990084BFFD /* ABPadLockScreenAbstractViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6BF6051BA55E990084BFFD /* ABPadLockScreenAbstractViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C6BF6121BA55E990084BFFD /* ABPadLockScreenAbstractViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6BF6051BA55E990084BFFD /* ABPadLockScreenAbstractViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C6BF6131BA55E990084BFFD /* ABPadLockScreenAbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6BF6061BA55E990084BFFD /* ABPadLockScreenAbstractViewController.m */; };
-		9C6BF6141BA55E990084BFFD /* ABPadLockScreenSetupViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6BF6071BA55E990084BFFD /* ABPadLockScreenSetupViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C6BF6141BA55E990084BFFD /* ABPadLockScreenSetupViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6BF6071BA55E990084BFFD /* ABPadLockScreenSetupViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C6BF6151BA55E990084BFFD /* ABPadLockScreenSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6BF6081BA55E990084BFFD /* ABPadLockScreenSetupViewController.m */; };
-		9C6BF6161BA55E990084BFFD /* ABPadLockScreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6BF6091BA55E990084BFFD /* ABPadLockScreenView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C6BF6161BA55E990084BFFD /* ABPadLockScreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6BF6091BA55E990084BFFD /* ABPadLockScreenView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C6BF6171BA55E990084BFFD /* ABPadLockScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6BF60A1BA55E990084BFFD /* ABPadLockScreenView.m */; };
-		9C6BF6181BA55E990084BFFD /* ABPadLockScreenViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6BF60B1BA55E990084BFFD /* ABPadLockScreenViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C6BF6181BA55E990084BFFD /* ABPadLockScreenViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6BF60B1BA55E990084BFFD /* ABPadLockScreenViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C6BF6191BA55E990084BFFD /* ABPadLockScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6BF60C1BA55E990084BFFD /* ABPadLockScreenViewController.m */; };
-		9C6BF61A1BA55E990084BFFD /* ABPinSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6BF60D1BA55E990084BFFD /* ABPinSelectionView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C6BF61A1BA55E990084BFFD /* ABPinSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6BF60D1BA55E990084BFFD /* ABPinSelectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C6BF61B1BA55E990084BFFD /* ABPinSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6BF60E1BA55E990084BFFD /* ABPinSelectionView.m */; };
 /* End PBXBuildFile section */
 
