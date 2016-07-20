@@ -321,7 +321,7 @@
 		if(_backgroundBlurringView == nil)
 		{
             if (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_7_1) { // iOS 8
-                UIBlurEffect *blur = [UIBlurEffect effectWithStyle: UIBlurEffectStyleLight];
+                UIBlurEffect *blur = [UIBlurEffect effectWithStyle: UIBlurEffectStyleDark];
                 _backgroundBlurringView = [[UIVisualEffectView alloc] initWithEffect: blur];
             }
             else if(NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_6_1)
@@ -344,6 +344,7 @@
 		[_backgroundView setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
 
         [self insertSubview:_backgroundView belowSubview:_backgroundBlurringView];
+    
 	}
 }
 

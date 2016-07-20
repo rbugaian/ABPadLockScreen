@@ -28,28 +28,28 @@
     
     self.title = @"Your Amazing App";
 
-	[[ABPadLockScreenView appearance] setBackgroundColor:[UIColor colorWithHexValue:@"282B35"]];
 	
-	UIColor* color = [UIColor colorWithRed:229.0f/255.0f green:180.0f/255.0f blue:46.0f/255.0f alpha:1.0f];
-
-	[[ABPadLockScreenView appearance] setLabelColor:[UIColor whiteColor]];
-    [[ABPadLockScreenView appearance] setLabelColor:[UIColor blackColor]];
-	[[ABPadButton appearance] setBackgroundColor:[UIColor clearColor]];
-    [[ABPadButton appearance] setBorderColor:color];
-    [[ABPadButton appearance] setSelectedColor:color];
     
-    [[ABPinSelectionView appearance] setSelectedColor:color];
+	
+    
+//    UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
+//    UIVisualEffectView *bluredEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
+//    
+//    [bluredEffectView setFrame:self.view.bounds];
+    
+    
+    [[ABPadLockScreenView appearance] setBackgroundView:[[UIView alloc] initWithFrame:self.view.frame]];
 }
 
 #pragma mark -
 #pragma mark - Button Methods
 - (IBAction)setPin:(id)sender
 {
-    ABPadLockScreenSetupViewController *lockScreen = [[ABPadLockScreenSetupViewController alloc] initWithDelegate:self complexPin:YES subtitleLabelText:@"You need a PIN to continue"];
+    ABPadLockScreenSetupViewController *lockScreen = [[ABPadLockScreenSetupViewController alloc] initWithDelegate:self complexPin:NO subtitleLabelText:@"You need a PIN to continue"];
     lockScreen.tapSoundEnabled = YES;
     lockScreen.errorVibrateEnabled = YES;
 	
-    lockScreen.modalPresentationStyle = UIModalPresentationFullScreen;
+    lockScreen.modalPresentationStyle = UIModalPresentationOverCurrentContext;
     lockScreen.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
 	
 //	Example using an image
@@ -69,10 +69,10 @@
         return;
     }
     
-    ABPadLockScreenViewController *lockScreen = [[ABPadLockScreenViewController alloc] initWithDelegate:self complexPin:YES];
+    ABPadLockScreenViewController *lockScreen = [[ABPadLockScreenViewController alloc] initWithDelegate:self complexPin:NO];
     [lockScreen setAllowedAttempts:3];
     
-    lockScreen.modalPresentationStyle = UIModalPresentationFullScreen;
+    lockScreen.modalPresentationStyle = UIModalPresentationOverCurrentContext;
     lockScreen.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
 	
 //	Example using an image

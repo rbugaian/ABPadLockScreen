@@ -108,7 +108,7 @@
 	
 	if(color == nil)
 	{
-		color = lockScreenView.backgroundColor = [UIColor blackColor];
+		color = lockScreenView.backgroundColor = [UIColor clearColor];
 	}
 	
 	const CGFloat *componentColors = CGColorGetComponents(color.CGColor);
